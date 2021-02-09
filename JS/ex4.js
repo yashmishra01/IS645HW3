@@ -4,7 +4,7 @@ for (i = 1; i <= 3; i++) {
     let pwd = prompt('Enter a valid password: ');
 
     if (pwd == "secret") {
-        console.log('you entered the correct password after ' + i + ' attempts')
+        console.log('you entered the correct password in ' + i + ' attempts')
         break;
     } else if (i < 3) {
         console.log('Wrong Password!');
